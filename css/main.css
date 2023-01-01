@@ -1579,5 +1579,31 @@ ul.portfolio-list li .pop-wrap .inner-page .remove::after {
   .edit-block {
     border-radius: 10px;
   }
+  .personal ul.btnlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .personal ul.btnlist p {
+    width: 100%;
+  }
+  .personal ul.btnlist li {
+    margin: 2px 5px;
+  }
+  ul.preset li {
+    font-size: 14px;
+  }
+  ul.preset li span.note {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  ul.preset li span.note ul > li {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

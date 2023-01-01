@@ -184,5 +184,22 @@ a.btn{font-size: 14px;padding: 10px 15px;}
 h3{font-size: 18px;}
 ul.portfolio-list li .font-box{padding: 20px 10px;}
 .edit-block{border-radius: 10px;}
+.personal ul.btnlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    p{width: 100%;}
+    li{
+        margin: 2px 5px;
+    }
+}
+ul.preset li{
+    font-size: 14px;
+    span.note{
+        font-size: 12px;
+        margin-top: 4px;
+        ul > li{font-size: 12px;}
+    }
+}
 
 }
