@@ -68,11 +68,10 @@ h3{font-size: 20px;}
 
 ul.portfolio-list li{
     width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #666;
     .pop-wrap .inner-page{
         width: 100%;
         height: 100%;
+        border-radius: 0;
     }
 }
 
@@ -85,11 +84,17 @@ ul.portfolio-list li{
         padding-bottom: 20px;
     }
     .fontbox{
-        width: 100%;
+        width: auto;
         padding-left: 0;
         padding-top: 20px;
     }
+    ul.contact{
+        width: auto;
+    }
+    .tag{text-align: center;}
+    ul.btnlist p{text-align: center;}
 }
+
 
 ul.skill-list > li{
     width: 100%;

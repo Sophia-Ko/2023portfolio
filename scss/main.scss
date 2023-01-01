@@ -59,6 +59,7 @@ a,i,button,input,*::before,*::after{transition: .3s;}
 .dfc{
     display: flex;
     align-items: center;
+		align-content: center;
     justify-content: center;
 }
 
@@ -318,6 +319,7 @@ a.btn {
     width: 100%;
     display: flex;
     align-items: stretch;
+		align-content: center;
     justify-content: center;
     .dfc{
         width: 300px;
@@ -465,20 +467,24 @@ ul.preset{
         text-decoration: underline;
     }
     li {
-        span.note{
-            font-weight: normal;
-            display: block;
-            color: #777;
-            font-size: 13px;
-						ul{
-							list-style: disc;
-							margin-top: 4px;
-							> li{
-								padding: 2px 0;
-								margin: 0 0 0 18px;
-							}
+			font-size: 15px;
+			&::marker{
+				color: $color-dark;
+			}
+			span.note{
+					font-weight: normal;
+					display: block;
+					color: #777;
+					font-size: 13px;
+					ul{
+						list-style: disc;
+						margin-top: 4px;
+						> li{
+							padding: 2px 0;
+							margin: 0 0 0 18px;
 						}
-        }
+					}
+			}
     }
 }
 
@@ -528,8 +534,9 @@ ul.portfolio-list{
         .font-box{
             padding: 20px;
 						background-color: #fff;
+						line-height: 1.5;
             transition: .5s;
-            h3{margin-bottom: 16px;color: $color-black;font-weight: bold;}
+            h3{margin-bottom: 8px;color: $color-black;font-weight: bold;}
             h6{
 							color: #999;
 							span{
